@@ -64,7 +64,7 @@ A Java recreation of a previous full-stack project/api, completed while particip
   GET /api/lists/${id}
 ```
 
- - Catch Pokemon from List by ID
+ - Catch Pokemon from List
 
 ```http
   GET /api/lists/${id}/all-pokemon
@@ -72,13 +72,13 @@ A Java recreation of a previous full-stack project/api, completed while particip
 
 ### PUT
 
- - Delete Pokemon from List by ID
+ - Delete Pokemon from List
 
 ```http
-  PUT /api/edit/${id}/pokemon/delete
+  PUT /api/edit/${id}/pokemon/${pokedex}/delete
 ```
 
- - Rename List by ID
+ - Rename List
 
 ```http
   PUT /api/edit/${id}/change-name
@@ -86,7 +86,7 @@ A Java recreation of a previous full-stack project/api, completed while particip
 
 ### DELETE
 
- - Delete List by ID
+ - Delete List
 
 ```http
   PUT /api/edit/${id}/delete
