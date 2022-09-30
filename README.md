@@ -18,7 +18,7 @@ A front-end project/api built in Angular, completed while participating in the M
 
 [PluralSight Course on Angular](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents) - Angular introduction
 
-[O'Reilly Lessons]([https://www.barnesandnoble.com/w/learning-java-marc-loy/1135637237?ean=9781492056270](https://www.oreilly.com/videos/angular-the/9781788998437/)) - More Angular video lessons
+[O'Reilly Lessons](https://www.oreilly.com/videos/angular-the/9781788998437/) - More Angular video lessons
 ## Project Features
 
 **CRUD Functionality:** 
