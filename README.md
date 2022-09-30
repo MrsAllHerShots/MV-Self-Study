@@ -1,100 +1,111 @@
 
-# Multiverse Java Self-Study Project
+# Multiverse Self-Study Project
 
-A Java recreation of a previous full-stack project/api, completed while participating in the Multiverse program
+A front-end project/api built in Angular, completed while participating in the Multiverse program
 
 
 ## Self-Study Plan
 
-- Learn Java by utilizing PluralSight and YouTube lessons and tutorials
+- Learn Angular by utilizing PluralSight and YouTube lessons and tutorials
 - Design/Outline project by end of 8/1
-- 
+- Responsive and clear UI/UX
 - Verify CRUD functionality across project
 
 
 ## Lessons Links
 
-[YouTube Playlist](https://youtube.com/playlist?list=PLtgniFeQ_KZvK-sHoQ21kjPzHrGGdmViA) - Scroll to the bottom to see the Java related lessons and tutorials
+[YouTube Playlist](https://youtube.com/playlist?list=PLtgniFeQ_KZvK-sHoQ21kjPzHrGGdmViA) - Scroll to the bottom to see the related lessons and tutorials
 
-[PluralSight Channel](https://app.pluralsight.com/channels/details/c591aeb5-e7c6-44ad-959a-0a88d1ff24de)
+[PluralSight Course on Angular](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents) - Angular introduction
 
 [O'Reilly e-book](https://www.barnesandnoble.com/w/learning-java-marc-loy/1135637237?ean=9781492056270) - I have yet to start reading, but I'm sure it will come in handy in the coming weeks
 ## Project Features
 
 **CRUD Functionality:** 
- - Browse all lists and individual Pokemon
- - Create/Delete lists
- - Add/Remove Pokemon to/from lists
- 
-
-**Utilize External API:**
- - Pull Pokemon data and images from PokeAPI
-## API Reference
+ - Browse all lists and individual products
+ - Manage customer orders
+ - Manage products within inventory
 
 ### POST
 
- - Create NEW List
+ - Create NEW order
 
 ```http
-  POST /api/create/list
+  POST /src/orders/new
+```
+
+ - Create NEW product
+
+```http
+  POST /src/products/new
 ```
 
 ### GET
 
- - Catch ALL Pokemon
+ - Pull ALL products
 
 ```http
-  GET /api/pokemon
+  GET /src/products/all
 ```
- - Catch Pokemon by PokeAPI ID
+ - Pull product by ID
 
 ```http
-  GET /api/pokemon/${pokedex}
-```
-
- - Catch ALL Lists
-
-```http
-  GET /api/lists
+  GET /src/products/:sku
 ```
 
- - Catch List by ID
+ - Pull ALL orders
 
 ```http
-  GET /api/lists/${id}
+  GET /src/orders/all
 ```
 
- - Catch Pokemon from List
+ - Pull order by ID
 
 ```http
-  GET /api/lists/${id}/all-pokemon
+  GET /src/orders/:uuid
+```
+
+ - Pull ALL users
+
+```http
+  GET /src/users/all
+```
+
+ - Pull users by ID
+
+```http
+  GET /src/users/:id
 ```
 
 ### PUT
 
- - Delete Pokemon from List
+ - Edit product by ID
 
 ```http
-  PUT /api/edit/${id}/pokemon/${pokedex}/delete
+  PUT /api/products/:sku/edit
 ```
 
- - Rename List
+ - Edit user by ID
 
 ```http
-  PUT /api/edit/${id}/change-name
+  PUT /api/users/:id/edit
 ```
 
-### DELETE
-
- - Delete List
+ - Delete product by ID
 
 ```http
-  PUT /api/edit/${id}/delete
+  PUT /src/products/:sku/delete
+```
+
+ - Delete user by ID
+
+```http
+  PUT /api/users/:id/delete
 ```
 ### Acknowledgements
 
  - [Readme Editor](https://readme.so/editor) - Simplified the README creation process
- - [PokeAPI](https://pokeapi.co/) - Complete Pokemon database
+ - [Angular Materials](https://material.angular.io/) - Component Library
  - [Programming with Mosh](https://www.youtube.com/c/programmingwithmosh) - Fantastic content creator on YouTube, really helped me out
 
 #
