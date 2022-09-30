@@ -6,8 +6,8 @@ A front-end project/api built in Angular, completed while participating in the M
 
 ## Self-Study Plan
 
-- Learn Angular by utilizing PluralSight and YouTube lessons and tutorials
-- Design/Outline project by end of 8/1
+- Learn Angular by utilizing PluralSight and YouTube lessons/tutorials
+- Design project in line with Amex team needs
 - Responsive and clear UI/UX
 - Verify CRUD functionality across project
 
@@ -18,7 +18,7 @@ A front-end project/api built in Angular, completed while participating in the M
 
 [PluralSight Course on Angular](https://app.pluralsight.com/library/courses/angular-2-getting-started-update/table-of-contents) - Angular introduction
 
-[O'Reilly e-book](https://www.barnesandnoble.com/w/learning-java-marc-loy/1135637237?ean=9781492056270) - I have yet to start reading, but I'm sure it will come in handy in the coming weeks
+[O'Reilly Lessons]([https://www.barnesandnoble.com/w/learning-java-marc-loy/1135637237?ean=9781492056270](https://www.oreilly.com/videos/angular-the/9781788998437/)) - More Angular video lessons
 ## Project Features
 
 **CRUD Functionality:** 
